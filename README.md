@@ -64,13 +64,13 @@ Bash
 sudo apt-get update
 sudo apt-get install openssh-client espeak
 
-🚀 Instalación y Configuración
-1. Acceder al directorio del proyecto
+## 🚀 Instalación y Configuración
+ #Acceder al directorio del proyecto
 Bash
 
 cd
 
-2. Crear y activar el entorno virtual
+# Crear y activar el entorno virtual
 Bash
 
 # Crear entorno virtual
