@@ -2,7 +2,9 @@
 
 Sistema de Monitoreo de Raspberry Pi con Logging
 
-Sistema automático de monitoreo remoto de temperatura en Raspberry Pi con alertas visuales, de voz y registros de eventos. Utiliza SSH con autenticación por clave privada y almacena toda la actividad en archivos de log rotables.
+Sistema automático de monitoreo remoto de temperatura en Raspberry Pi con alertas visuales, de voz y registros de eventos. 
+Utiliza SSH con autenticación por clave privada y almacena toda la actividad en archivos de log.
+
 📋 Tabla de Contenidos
 
     Características
