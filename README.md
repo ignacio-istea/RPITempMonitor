@@ -68,7 +68,7 @@ sudo apt-get install openssh-client espeak
 1. Acceder al directorio del proyecto
 Bash
 
-cd /Users/user/Tecnicatura/programacion/TP-automatizacion
+cd
 
 2. Crear y activar el entorno virtual
 Bash
