@@ -66,38 +66,38 @@ Bash
 sudo apt-get update
 sudo apt-get install openssh-client espeak
 
-## 🚀 Instalación y Configuración
- #Acceder al directorio del proyecto
+### 🚀 Instalación y Configuración
+#1.Acceder al directorio del proyecto
 Bash
 
 cd
 
-# Crear y activar el entorno virtual
+#2.Crear y activar el entorno virtual
 Bash
 
-# Crear entorno virtual
+Crear entorno virtual
 python3 -m venv .venv
 
-# Activar en macOS / Linux
+Activar en macOS / Linux
 source .venv/bin/activate
 
-# Activar en Windows (PowerShell)
+Activar en Windows (PowerShell)
 .venv\Scripts\Activate.ps1
 
-3. Instalar las dependencias
+#3. Instalar las dependencias
 Bash
 
 pip install -r requirements.txt
 
-4. Configurar el archivo config.json
+#4. Configurar el archivo config.json
 
 Crea un archivo llamado config.json en la raíz del proyecto con la siguiente estructura:
 JSON
 
 {
   "raspberry_pi": {
-    "ip": "10.0.0.195",
-    "user": "pinacho",
+    "ip": "10.0.0.1",
+    "user": "UserPI",
     "ssh_key_path": "./private_key.pem",
     "port": 22,
     "timeout": 5
