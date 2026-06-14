@@ -1,0 +1,18 @@
+{
+  "raspberry_pi": {
+    "ip": "10.0.0.1",
+    "user": "RPI-User",
+    "ssh_key_path": "./private_key.pem",
+    "port": 22,
+    "timeout": 5
+  },
+  "monitoring": {
+    "temp_limit": 55.0,
+    "check_interval_seconds": 15
+  },
+"logging": {
+    "log_dir": "./logs",
+    "max_bytes": 10485760,
+    "backup_count": 5
+  }
+}
